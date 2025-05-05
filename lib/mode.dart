@@ -12,7 +12,7 @@ class Appdata {
     Appdata(name: "scissors", imagedata: "assets/scissors.png"),
   ];
 
-  static List<int> scores = [0, 0];
+  static List<int> scores = [4, 0];
 
   static int robotname() {
     int robotvalue = Random().nextInt(3);
